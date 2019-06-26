@@ -5,6 +5,7 @@ module my_and_gate
     output y,
     output x,
     output z,
+    output g,
     output f
 );
 
