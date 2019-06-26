@@ -1,17 +1,12 @@
-module my_and_gate
+module first_practice
 (
-    input a,
-    input b,
-    output y,
-    output x,
-    output z,
-    output g,
-    output f
+    input [31:0] a,
+    input [31:0] b,
+  
+    output [31:0] add_out
 );
 
-assign y = a & b;
-assign x = a | b;
-assign z = a ^ b;
-assign f = ~(a & b);
+assign add_out = a + b;
+
 endmodule
 

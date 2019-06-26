@@ -1,0 +1,49 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\FPGA-1\simulation
+vfirst_practice
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+!s100 fj>3JXlWD3iD11elO73gh0
+IG7<YePmnkkklnZ^b<PXQn2
+VJi>cA[SoV?Z<O^gb8K`lF3
+Z2 !s105 first_practive_sv_unit
+S1
+Z3 dC:\FPGA-1\simulation
+w1561525333
+Z4 8C:/FPGA-1/first_practive.sv
+Z5 FC:/FPGA-1/first_practive.sv
+L0 1
+Z6 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1561525377.742000
+!s107 C:/FPGA-1/first_practive.sv|
+Z7 !s90 -reportprogress|300|-work|work|C:/FPGA-1/first_practive.sv|
+!s101 -O0
+Z8 o-work work -O0
+vmy_tb
+R1
+Z9 Ik5A4_hgW9kzanZUJdWXE00
+Z10 VcL<3VH^SeJ[VLzh>GZ_cH3
+Z11 !s105 my_tb_sv_unit
+S1
+R3
+Z12 w1561525133
+Z13 8C:/FPGA-1/simulation/my_tb.sv
+Z14 FC:/FPGA-1/simulation/my_tb.sv
+L0 3
+R6
+r1
+31
+Z15 !s90 -reportprogress|300|-work|work|C:/FPGA-1/simulation/my_tb.sv|
+R8
+!i10b 1
+Z16 !s100 m7Bik;YVO><^LPzD=cKEe3
+!s85 0
+Z17 !s108 1561525140.389000
+Z18 !s107 C:/FPGA-1/simulation/my_tb.sv|
+!s101 -O0
