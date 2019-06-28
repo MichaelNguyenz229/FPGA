@@ -7,7 +7,11 @@ logic [3:0] tb_b;
 logic [1:0] tb_mode;
 logic [3:0] tb_result;
 
-alu alu_instance
+alu
+#(
+    .DATA_WIDTH(8)
+)
+ alu_instance
 (
     .a(tb_a),
     .b(tb_b),
@@ -18,19 +22,19 @@ alu alu_instance
 initial
     begin
 
-    #5  mode = 2'b10;
+    #5  tb_mode = 2'b10;
         tb_a = 4'ha;
         tb_b = 4'h3;
 
-    #5  mode = 2'b01;
+    #5  tb_mode = 2'b01;
         tb_a = 4'hb;
         tb_b = 4'h2;
 
-    #5  mode = 2'b11;
+    #5  tb_mode = 2'b11;
         tb_a = 4'hd;
         tb_b = 4'hc;
 
-    #5  mode = 2'b00;
+    #5  tb_mode = 2'b00;
         tb_a = 4'hc;
         tb_b = 4'h3;
  
